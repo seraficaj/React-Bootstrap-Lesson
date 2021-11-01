@@ -109,9 +109,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 ```
 
-### Components Are Now Components!
+## Components Are Now Components!
 
-## Invisible Layout Components
+### Invisible Layout Components
 
 Anything that has custom Bootstrap Styles in ordinary Bootstrap is now a Component. This is also true even for invisible but important HTML elements like `<div class="container>` and `<div class="row">`- the two foundational divs for setting up the Bootstrap 12-Column layout system.
 
