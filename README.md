@@ -16,6 +16,7 @@ By the end of this lesson, developers should be able to:
 -   Fork and Clone this repository
 -   Run `git checkout bootstrap` to view the Bootstrap lesson for this repo.
 -   Look over the included React components.
+-   Run `npm install` inside of this lesson's directory download all packages!
 
 ## Getting Started With React-Bootstrap
 
