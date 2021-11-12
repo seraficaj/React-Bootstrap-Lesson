@@ -92,8 +92,6 @@ With this in mind, let's go over a proposed solution from React-Bootstrap.
 
 ## React Bootstrap - Getting Started
 
-NOTE: As of the time of this writing (late 2021-early 2022), React Bootstrap is STILL based on Bootstrap 4. Future versions may be based on the then current Bootstrap 5.0. There are very minor differences between these versions (such as some components getting deprecated), but you may have to look out for them!
-
 [Get Started With React-Bootstrap](https://react-bootstrap.github.io/getting-started/introduction)
 
 To install react-bootstrap, you must first have Bootstrap set up according to the instructions earlier.
