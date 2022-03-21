@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
-import "./index.css"
+// import "./index.css"
+import "./lumen.css"
 import App from "./Components/App";
 import { BrowserRouter as Router} from "react-router-dom";
 
