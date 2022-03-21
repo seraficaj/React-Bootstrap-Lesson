@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Route, Switch } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -42,7 +42,7 @@ function App() {
       <MainNavbar />
       <Container>
         <Row>
-          <Switch>
+          <Routes>
             <Route
               exact
               path="/"
@@ -64,7 +64,7 @@ function App() {
             <Route path="/myteam">
               <MyTeam myTeam={myTeam} toggleOnTeam={toggleOnTeam}/>
             </Route>
-          </Switch>
+          </Routes>
         </Row>
       </Container>
     </div>
