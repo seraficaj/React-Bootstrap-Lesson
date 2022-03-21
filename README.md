@@ -9,12 +9,13 @@ By the end of this lesson, developers should be able to:
 -   Create mobile-first, reposnsive layouts using [React-Bootstrap](https://react-bootstrap.github.io/)
 -   Reference React-Bootstrap documentation
 -   Use 3rd Party React Component libraries confidently
--   Further customize component libraries for personal and professional use
+-   Further 
+ize component libraries for personal and professional use
 
 ## Preparation
 
 -   Fork and Clone this repository
--   Run `git checkout bootstrap` to view the Bootstrap lesson for this repo.
+-   Run `git checkout -b bootstrap` to create a new branch for coding along.
 -   Look over the included React components.
 -   Run `npm install` inside of this lesson's directory download all packages!
 
@@ -81,7 +82,7 @@ Let's bring in a Navbar component:
 </nav>
 ```
 
-Even if you run Prettier, React will still give you many error messages!
+Even if you run an auto-formatter, React will still give you many error messages!
 
 -   `class has to be updated to className`
 -   self closing tags such as `<img>` need to be converted into react-friendly syntax like `<img />`
@@ -238,3 +239,7 @@ Spookily, you might even see some Direct Ancestor components not have the onClic
 The Bootstrap Components themselves render out as HTML on the DOM. Anything inside of a Bootstrap Layout Component will still be considered a descendant of its containg component and will directly receive the prop passed down to it!
 
 Does this sound complicated! It is! But we can follow the prop's path down through the component tree to see where it runs!
+
+## Where to go from here? 
+
+You can continue to style on top of React Bootstrap like how you would customize Bootstrap in many other ways. Try installing a theme or a stylesheet on top of React Bootstrap
