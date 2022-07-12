@@ -108,7 +108,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 ```
 
-## Bootstrap Components Are Now Reat Components!
+## Bootstrap Components Are Now React Components!
 
 ### Invisible Layout Components
 
@@ -238,7 +238,7 @@ Spookily, you might even see some Direct Ancestor components not have the onClic
 
 The Bootstrap Components themselves render out as HTML on the DOM. Anything inside of a Bootstrap Layout Component will still be considered a descendant of its containg component and will directly receive the prop passed down to it!
 
-Does this sound complicated! It is! But we can follow the prop's path down through the component tree to see where it runs!
+Does this sound complicated? It is! But we can follow the prop's path down through the component tree to see where it runs!
 
 ## Where to go from here? 
 
